@@ -1,4 +1,0 @@
-Compile using: nasm -f bin boot.asm -o boot.bin
-Run using: qemu-system-x86_64 -drive format=raw,file=boot.bin -no-reboot
-
-boot.asm -> Hola mundo
