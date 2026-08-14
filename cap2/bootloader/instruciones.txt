@@ -1,0 +1,5 @@
+Compilar:
+nasm -f bin boot.asm -o boot.bin
+
+Ejecutar qemo:
+qemu-system-i386 -drive format=raw,file=boot.bin -machine pc
